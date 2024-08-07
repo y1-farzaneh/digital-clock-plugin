@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic page settings and meta data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock Plugin Test</title>
+</head>
+<body>
+
+<!-- Container for the clock -->
+<div id="clockContainer"></div>
+
+<!-- Link to the JavaScript file -->
+<script src="./dist/clock.js"></script>
+<!-- Script to initialize the DigitalClock plugin with custom options -->
+<script>
+    new DigitalClock('clockContainer', {
+        bgColor: '#e0e5ec',
+        color: '#444',
+        format: '12', // Options: '12' or '24'
+        fontFamily: 'Roboto',
+        fontSize: '2rem'
+    });
+</script>
+
+</body>
+</html>

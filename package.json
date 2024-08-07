@@ -1,0 +1,13 @@
+{
+  "name": "digital-clock-plugin",
+  "version": "1.0.0",
+  "description": "A simple digital clock plugin",
+  "main": "dist/clock.js",
+  "scripts": {
+    "build": "cp src/* dist/",
+    "clean": "rm -rf dist/*"
+  },
+  "keywords": ["clock", "digital clock", "plugin"],
+  "author": "github:y1.farzaneh",
+  "license": "MIT"
+}
